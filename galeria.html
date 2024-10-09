@@ -6,14 +6,14 @@
     <title>Galeria</title>
     <style>
         .galeria{
-            width: 100px;
-            height: 50px;
+            width: 200px;
+            height: 100px;
             margin: 10px;
             cursor: pointer;
         }
         #grande{
-            width: 200px;
-            height: 100px;
+            width: 500px;
+            height: 300px;
             display: block;
             margin: 30px auto;
 
@@ -28,9 +28,9 @@
 <body>
     <h1>Galeria de Imagenes</h1>
     <div class="galeria">
-        <img src="paisaje.png" onclick="mostrargrande(this.src)">
-        <img src="paisaje2.jpg" onclick="mostrargrande(this.src)">
         <img src="lamaria.jpg" onclick="mostrargrande(this.src)">
+        <img src="paisaje2.jpg" onclick="mostrargrande(this.src)">
+        <img src="paisaje.png" onclick="mostrargrande(this.src)">
     </div>
 <img id="grande" src="paisaje.png">
     
