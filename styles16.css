@@ -4,10 +4,10 @@
     width: 320px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #69a7e2;
+    border: 1px solid #04396b;
     border-radius: 12px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-    background-color: #a6b4c1;
+    background-color: #83bdf3;
     }
     .formulario input, .formulario button{
         width: 95%;
@@ -24,4 +24,17 @@
         border: 2px solid #CCC;
 
     }
-    
+    header{
+        background-color: #333;
+        padding: 1px 0;
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    nav ul li{
+        display: inline;
+        margin-right:20px;
+    }
