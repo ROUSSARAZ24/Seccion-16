@@ -5,19 +5,15 @@ function validarFormulario(){
         return false;
         }        
         return true;
-    }
-    function validarFormulario(){
-    let correoelectronico=document.getElementById("email").value;
-    if(correoelectronico==""){
+    
+    let email=document.getElementById("email").value;
+    if(email==""){
         alert("Todos los campos son obligatorios. ");
         return false;
         }        
         return true;
-    }
     
-
-    function validarFormulario(){
-    let imagendeperfil=document.getElementById("imagen").value;
+        let imagendeperfil=document.getElementById("imagen").value;
     if(imagendeperfil==""){
         alert("Todos los campos son obligatorios. ");
         return false;
