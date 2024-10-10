@@ -7,7 +7,7 @@ function validarFormulario(){
         return true;
     }
     function validarFormulario(){
-    let email=document.getElementById("email").value;
+    let correoelectronico=document.getElementById("email").value;
     if(correoelectronico==""){
         alert("Todos los campos son obligatorios. ");
         return false;
@@ -17,7 +17,7 @@ function validarFormulario(){
     
 
     function validarFormulario(){
-    let imagen=document.getElementById("imagen").value;
+    let imagendeperfil=document.getElementById("imagen").value;
     if(imagendeperfil==""){
         alert("Todos los campos son obligatorios. ");
         return false;
