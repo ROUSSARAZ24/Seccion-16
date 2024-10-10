@@ -1,4 +1,3 @@
-
 function validarFormulario(){
     let Nombre=document.getElementById("Nombre").value;
     let email=document.getElementById("email").value;
