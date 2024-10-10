@@ -1,8 +1,24 @@
 function validarFormulario(){
     let Nombre=document.getElementById("Nombre").value;
+    if(Nombre==""){
+        alert("Todos los campos son obligatorios. ");
+        return false;
+        }        
+        return true;
+    }
+    function validarFormulario(){
     let email=document.getElementById("email").value;
+    if(email==""){
+        alert("Todos los campos son obligatorios. ");
+        return false;
+        }        
+        return true;
+    }
+    
+
+    function validarFormulario(){
     let imagen=document.getElementById("imagen").value;
-    if(Nombre==""|| email==""|| imagen==""){
+    if(imagen==""){
         alert("Todos los campos son obligatorios. ");
         return false;
         }        
