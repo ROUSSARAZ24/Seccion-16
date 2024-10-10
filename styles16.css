@@ -7,7 +7,7 @@
     border: 1px solid #04396b;
     border-radius: 12px;
     box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-    background-color: #83bdf3;
+    background-color: #b9ebf8;
     }
     .formulario input, .formulario button{
         width: 95%;
@@ -37,4 +37,13 @@
     nav ul li{
         display: inline;
         margin-right:20px;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: inline block;
+    }
+    nav ul li a hover{
+        background: #e9e7e7;
     }
