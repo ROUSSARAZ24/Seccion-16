@@ -5,9 +5,10 @@ function validarFormulario(){
     let imagen=document.getElementById("imagen").value;
     if(Nombre=="" || email=="" || imagen=="" ){
         alert("Todos los campos son obligatorios...");
-         return false;
+        return false;
+        
     }
-    return true;
+    
 }
 
 function mostrarImagen(event){
