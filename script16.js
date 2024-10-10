@@ -1,4 +1,4 @@
-function validarFormulario(){
+function validarformulario(){
     let Nombre=document.getElementById("Nombre").value;
     let email=document.getElementById("email").value;
     let imagen=document.getElementById("imagen").value;
