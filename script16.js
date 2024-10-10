@@ -3,10 +3,11 @@ function validarFormulario(){
     let Nombre=document.getElementById("Nombre").value;
     let email=document.getElementById("email").value;
     let imagen=document.getElementById("imagen").value;
-    if(Nombre==""   email==""   imagen==""){
+    if(Nombre=="" || email=="" || imagen=="" ){
         alert("Todos los campos son obligatorios...");
          return false;
     }
+    return true;
 }
 
 function mostrarImagen(event){
