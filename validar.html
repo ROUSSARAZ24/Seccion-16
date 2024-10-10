@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validar formulario</title>
     <script>
-        function Validar(){
-            let nombre=document.getElementById("Nombre").value;
+        function validar(){
+            let Nombre=document.getElementById("Nombre").value;
             if(Nombre==""){("El nombre es Obligatorio, ingreselo por favor...");
             return false;
             }
@@ -18,7 +18,7 @@
 </head>
 <body>
     <h1>Registro</h1>
-    <form onsubmit="return Validar()">
+    <form onsubmit="return validar()">
         <label>Nombre: </label>
         <input type="text" id="Nombre" name="Nombre"><br>
         <label>Edad: </label>
